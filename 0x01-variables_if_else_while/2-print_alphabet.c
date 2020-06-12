@@ -1,21 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in lowercase
-*
-* Return: 0 if success
-*/
-
+   * main - For loop that prints out entire alphabet using putchar
+    *
+     * Return: 0
+      */
 int main(void)
 {
-	char d = 'a';
-	while (d <= 'z')
-	{
-		putchar(d);
-		d++;
-	}
+	char alphabet;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
 	putchar('\n');
 	return (0);
 }
