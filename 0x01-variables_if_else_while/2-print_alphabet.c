@@ -1,24 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
-* main - Demonstrates if...else if...else statements
-*
+* main - program that prints the alphabet in lowercase, followed by a new line
+* You can only use the putchar
 * Return: 0
 */
+
 int main(void)
 {
-	int n;
-	
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n == 0)
-		printf("%i is zero\n", n);
-	else
-		printf("%i is negative\n", n);
+	int l = 'a';
+
+	while (l <= 'z')
+	{
+		putchar(l);
+		l += 1;
+	}
+	putchar('\n');
 	return (0);
 }
