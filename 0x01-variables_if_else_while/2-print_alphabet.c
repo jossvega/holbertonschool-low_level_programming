@@ -1,19 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <ctype.h>
+
 /**
-* main-random number is positive, negative or zero
-*
-* Return:0
+* main - program that prints the alphabet in lowercase, followed by a new line
+* You can only use the putchar
+* Return: 0
 */
+
 int main(void)
 {
-	char ch;
-	for (ch='a'; ch <= 'z'; ch++)
+	int l = 'a';
+	while (l <= 'z')
 	{
-		putchar(ch);
+		putchar(l);
+		l += 1;
 	}
 	putchar('\n');
 	return (0);
 }
-	
