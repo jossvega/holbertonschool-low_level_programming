@@ -1,17 +1,26 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-* Return: Always 0 (Success)
+* main - program that prints the alphabet in lowercase, followed by a new line
+* You can only use the putchar
+* Return: 0
 */
+
 int main(void)
 {
-	char ch;
-	for (ch = 'a'; ch <= 'z'; ch++){
-		if(ch!='q' && ch != 'e'){
-			putchar (ch);
+	int lw = 'a';
+	while (lw <= 'z')
+	{
+		if (lw == 'e' || lw == 'q')
+		{
+			lw += 1;
+		}
+		else
+		{
+			putchar(lw);
+			lw += 1;
 		}
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
