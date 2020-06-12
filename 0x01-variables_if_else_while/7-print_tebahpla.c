@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 /**
-* main - program that prints the lowercase alphabet in reverse.
-* You can only use the putchar function
-* Return: 0
-*/
-
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n = 122;
-	while (n > 96)
-	{
-		putchar(n);
-		n -= 1;
-	}
-	putchar('\n');
+	int n;
+
+	for (n = 122; n >= 97; n--)
+		putchar (n);
+	putchar ('\n');
 	return (0);
 }
