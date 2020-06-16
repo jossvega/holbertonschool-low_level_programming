@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char l[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+	char l[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o','n'};
 	int i;
 
 	for (i = 0; i < 9; i++)
