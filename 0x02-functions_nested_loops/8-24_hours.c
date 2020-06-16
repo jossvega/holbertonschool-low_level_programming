@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * main - entry point
  *
