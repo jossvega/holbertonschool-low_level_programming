@@ -1,49 +1,30 @@
 #include <stdio.h>
 #include "holberton.h"
 
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ *print_to_98 - prints all natural numbers from n to 98
+ * @n: input number to check
+ * Return: nothing.
  */
-
 
 void print_to_98(int n)
 {
-	int n1;
-
 	if (n < 98)
 	{
-		for (n1 = n; n1 < 98; n1++)
+		for (; n < 98; n++)
 		{
-			if (n1 != 98)
-			{
-				printf("%d, ", n1);
-			}
-			else
-			{
-				printf("%d ", n1);
-
-			}
+			printf("%d, ", n);
 		}
 	}
-	else
+	else if (n > 98)
 	{
-		for (n1 = n; n1 >= 98; n1--)
+		for (; n > 98; n--)
 		{
-			if (n1 != 98)
-			{
-				printf("%d, ", n1);
-			}
-			else
-			{
-				printf("%d ", n1);
-
-			}
-
+			printf("%d, ", n);
 		}
-
 	}
-	printf("\n");
+	if (n == 98)
+	{
+		printf("%d\n", n);
+	}
 }
