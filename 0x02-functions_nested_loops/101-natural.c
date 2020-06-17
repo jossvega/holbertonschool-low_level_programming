@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	int n1 = 0; /*division*/
-	int n2 = 0; /*Suma*/
+	int n1 = 0;
+	int n2 = 0;
 
 	while (n1 < 1024)
 	{
 		if (n1 % 3 == 0 || n1 % 5 == 0)
 		{
-			n2 = n2 + n1; /*suma de multiplos por cada loop*/
+			n2 = n2 + n1;
 		}
-		n1 ++;
+		n1++;
 	}
-	printf("%d\n", n2);/*total de la suma*/
+	printf("%d\n", n2);
 	return (0);
 }
