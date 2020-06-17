@@ -9,7 +9,7 @@
  */
 
 
-void print_to_98 (int n)
+void print_to_98(int n)
 {
 	int n1;
 
@@ -19,11 +19,11 @@ void print_to_98 (int n)
 		{
 			if (n1 != 98)
 			{
-				printf ("%d, ", n1);
+				printf("%d, ", n1);
 			}
 			else
 			{
-				printf ("%d ", n1);
+				printf("%d ", n1);
 
 			}
 		}
@@ -34,16 +34,16 @@ void print_to_98 (int n)
 		{
 			if (n1 != 98)
 			{
-				printf ("%d, ", n1);
+				printf("%d, ", n1);
 			}
 			else
 			{
-				printf ("%d ", n1);
+				printf("%d ", n1);
 
 			}
 
 		}
 
 	}
-	printf ("\n");
+	printf("\n");
 }
