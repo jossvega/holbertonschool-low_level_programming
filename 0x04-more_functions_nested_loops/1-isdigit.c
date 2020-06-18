@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _istdigit - function that checks for uppercase character.
+ *_isdigit - checks for a digit (0 through 9).
  * @c: input value to check
  * Return: int.
  */
