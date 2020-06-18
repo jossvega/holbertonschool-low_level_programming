@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-*_Write a function taht checks
-*for uppercase character
-*Return: int
-*/
+ *Write a function taht checks
+ *variable C
+ *Return: int
+ */
 
 int _isupper(int c)
 {

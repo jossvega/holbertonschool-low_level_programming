@@ -3,7 +3,7 @@
 /**
  * @c - check the variables diferentes 2 or 4.
  *
- * Return: Always 0.
+ * followed by new line
  */
 
 void print_most_numbers(void)

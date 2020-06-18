@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- * mul - function that multiplies two integers.
- * @a: first input value to check
- * @b: Sec input value to check
- * Return: int.
+ * is digit - function retrun 1.
+ * @c: first input value to check
+ * Return: 0
  */
 
 int _isdigit(int c)

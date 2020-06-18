@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * a - prints the row.
+ * b - prints the col.
+ * followed by a new line
  */
 void more_numbers(void)
 {
