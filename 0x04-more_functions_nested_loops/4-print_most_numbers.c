@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * @c - check the variables diferentes 2 or 4.
+ * print_most_numbers - function that prints the numbers, from 0 to 9.
  *
- * followed by new line
+ * Return: nothing.
  */
 
 void print_most_numbers(void)

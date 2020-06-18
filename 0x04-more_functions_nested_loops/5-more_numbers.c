@@ -1,10 +1,11 @@
 #include "holberton.h"
 
 /**
- * a - prints the row.
- * b - prints the col.
- * followed by a new line
+ * more_numbers -  function that prints 10 times the numbers, from 0 to 14.
+ *
+ * Return: nothing.
  */
+
 void more_numbers(void)
 {
 	int a;
