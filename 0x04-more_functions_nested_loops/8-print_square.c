@@ -8,19 +8,20 @@
 
 void print_square(int size)
 {
-	int con;
-	int imp;
+	int c;
+	int i;
 
 	if (size > 0)
 	{
-		for (con = 0; con < size; con++)
+		for (c = 0; c < size; c++)
 		{
-			for (imp = 0; imp < size; imp++)
+			for (i = 0; i < size; i++)
 			{
 				_putchar(35);
 			}
 			_putchar('\n');
 		}
 	}
+	else
 	_putchar('\n');
 }
