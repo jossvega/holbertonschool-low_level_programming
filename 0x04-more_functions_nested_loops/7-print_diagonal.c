@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a diagonal line .
- * @n: input value to check 7-main.c
+ * @n: input value to check
  * Return: void.
  */
 
