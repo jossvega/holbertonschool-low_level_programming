@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- *print_line - function to print
- *
- *x - is the number of times character should be printed
+ * print_line - function that draws a straight line in the terminal.
+ * @x: input value to check
+ * Return: nothing.
  */
 
 void print_line(int x)
