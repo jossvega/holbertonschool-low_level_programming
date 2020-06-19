@@ -26,9 +26,15 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
+		else if ( j == 100)
+		{
+			printf("Buzz");
+		}
 		else
 		{
 			printf(" %d ", j);
 		}
 	}
+	printf("\n");
+	return (0);
 }
