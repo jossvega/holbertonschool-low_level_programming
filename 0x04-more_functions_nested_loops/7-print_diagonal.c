@@ -2,11 +2,13 @@
 
 /**
  * print_diagonal - function that draws a diagonal line on the terminal.
- * @n: input value to check
+ * @x: value check
+ * @a; file
+ * @b: col
  * Return: nothing.
  */
 
-void print_diagonal(int n);
+void print_diagonal(int x);
 {
 	int a;
 	int b;
@@ -26,5 +28,4 @@ void print_diagonal(int n);
 		}
 		_putchar('\n');
 	}
-	return (0);
 }

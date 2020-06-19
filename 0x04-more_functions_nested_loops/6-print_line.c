@@ -3,7 +3,7 @@
 /**
  *print_line - function to print
  *
- *n - is the number of times character should be printed
+ *x - is the number of times character should be printed
  */
 
 void print_line(int x)
