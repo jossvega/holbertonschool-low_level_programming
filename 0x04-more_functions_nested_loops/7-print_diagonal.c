@@ -1,31 +1,27 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - function that draws a diagonal line on the terminal.
- * @x: value check
- * @a; file
- * @b: col
- * Return: nothing.
+ * print_diagonal - draws a diagonal line .
+ * @n: input value to check 7-main.c
+ * Return: void.
  */
 
-void print_diagonal(int x);
+void print_diagonal(int n)
 {
-	int a;
-	int b;
+	int i;
+	int j;
 
-	for (a = 0; a <= x; a++)
+	for (i = 0;i < n; i++)
 	{
-		for (b = 0; b <= a; b++)
+		for (j = 0;j <= i; j++)
 		{
-			if (b == a)
-			{
-				_putchar('\\');
-			}
-			else
-			{
+			if (j != i)
 				_putchar(' ');
-			}
+			else
+				_putchar('\\');
 		}
 		_putchar('\n');
 	}
+	if (n <= 0)
+		_putchar('\n');
 }
