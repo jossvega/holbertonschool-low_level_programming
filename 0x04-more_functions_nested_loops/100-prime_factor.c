@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main- print the larger number
- *return: void
+ * main- print the larger number
+ * Return: 0
  */
 
 int main(void)
