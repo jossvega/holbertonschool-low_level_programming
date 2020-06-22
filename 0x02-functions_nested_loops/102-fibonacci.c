@@ -2,11 +2,10 @@
 
 /**
  * main - prints the first 50 Fibonacci numbers,
- * starting with 1 and 2
  * followed by a new line
  * Return: void.
  */
-int main(void)
+void main(void)
 {
 	long int i;
 	long int x;
@@ -24,7 +23,8 @@ int main(void)
 		if (i != 49)
 		{
 			printf("%ld, ", z);
-		} else
+		}
+		else
 		{
 			printf("%ld\n", z);
 		}
