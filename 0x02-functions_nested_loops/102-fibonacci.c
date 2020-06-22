@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: void.
  */
-void main(void)
+int main(void)
 {
 	long int i;
 	long int x;
@@ -32,4 +32,5 @@ void main(void)
 		x = y;
 		y = z;
 	}
+	return (0);
 }
