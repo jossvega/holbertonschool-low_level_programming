@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcat- function that concatenates two strings.
+ * _stnrcat- function that concatenates two strings less n.
  *
  * @dest: pointer to destination char
  * @src: pointer to source char
