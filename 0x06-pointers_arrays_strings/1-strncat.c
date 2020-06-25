@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _stnrcat- function is similar to the _strcat.
+ * _strncat- function is similar to the _strcat.
  *
  * @dest: pointer to destination char
  * @src: pointer to source char
