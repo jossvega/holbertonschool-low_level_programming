@@ -1,4 +1,3 @@
- 
 #include "holberton.h"
 
 /**
@@ -12,13 +11,13 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
+	unsigned int x = 0;
 
-	while (i < n)
+	while (x < n)
 	{
 
-		*(s + i) = b;
-		i += 1;
+		s[x] = b;
+		x += 1;
 	}
 	return (s);
 }
