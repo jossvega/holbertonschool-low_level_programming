@@ -2,26 +2,31 @@
 #include <stdio.h>
 
 /**
- * _strstr - locates a substring
+ * *_strstr - locates a substring
+ * @haystack: string to search in
+ * @needle: substring to look for
  *
- * @haystack: number of bytes in the initial segment
- * @needle: consist only of bytes from
- * Return: char
+ * Return: pointer to the beginning of the located substring
+ * or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int p = 0;
+	char *s1;
+	char *s2;
 
-	while (*needle != '\0')
+	while (*haystack != '\0')
 	{
-		p = 0;
-		while (haystack[p] != '\0')
+		s1 = haystack;
+		s2 = needle;
+
+		while (*s2 == *haystack && *s2 != '\0' && *haystack != '\0')
 		{
-			if (*needle == haystack[p])
-			return (needle);
-			p++;
+			haystack++;
+			s2++;
 		}
-		needle++;
+		if (*s2 == '\0')
+			return (s1);
+		haystack = s1 + 1;
 	}
 	return (NULL);
 }
