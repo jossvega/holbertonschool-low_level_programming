@@ -36,9 +36,9 @@ int getW(char *s, int len)
 }
 
 /**
- * palindrome - returns 1 if a string is a palindrome and 0 if not.
+ * is_palindrome - returns 1 if a string is a palindrome
+ * and 0 if not.
  * @s: input char
- *
  * Return: int
  */
 
