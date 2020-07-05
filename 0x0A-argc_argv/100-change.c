@@ -7,7 +7,7 @@
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
- * Return: 0 (Success), 1 (Error)
+ * Return: 0, 1.
  */
 
 int main(int argc, char *argv[])
@@ -39,5 +39,6 @@ int main(int argc, char *argv[])
 			min++;
 		}
 	}
+	printf("%d\n", min);
 	return (0);
 }
