@@ -9,9 +9,8 @@
 
 char *argstostr(int ac, char **av)
 {
-	char *ptr;
+	char *ar, *str;
 	int x, j, lent;
-	int z = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
@@ -24,19 +23,19 @@ char *argstostr(int ac, char **av)
 		}
 		lent++;
 	}
-	ptr = malloc((lent + 1) * sizeof(char));
-	if (ptr == NULL)
+	ar = malloc(lent * sizeof(char));
+	if (ar == NULL)
 		return (NULL);
+	str = ar;
 	for (x = 0; x < ac; x++)
 	{
 		for (j = 0; av[x][j] != '\0'; j++)
 		{
-			ptr[z] = av[x][j];
-			z++;
+			*ar = av[x][j];
+			ar++;
 		}
-		ptr[z] = '\n';
-		z++;
+		*ar = '\n';
+		ar++;
 	}
-	ptr[z] = '\0';
-	return (ptr);
+	return (str);
 }
