@@ -2,11 +2,8 @@
 #include "dog.h"
 
 /**
- *new_dog - function that creates a new dog
- *@name: name of dog
- *@age: age of dog
- *@owner:owner of dog
- *Return: new struct
+ * free_dog - funtion that frees dog
+ * @d: dog to free
  */
 void free_dog(dog_t *d)
 {
