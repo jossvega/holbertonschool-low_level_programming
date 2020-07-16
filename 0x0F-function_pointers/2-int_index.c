@@ -11,7 +11,6 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-
 	int x;
 	int match = 0;
 
@@ -19,7 +18,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-
 	if (array != 0 && cmp != 0)
 	{
 		for (x = 0; x < size; x++)
@@ -29,8 +27,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 			if (match != 0)
 				break;
 		}
-		if (!match)
-			return (-1);
-		return (x);
 	}
+	if (!match)
+		return (-1);
+	return (x);
 }
