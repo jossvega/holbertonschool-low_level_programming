@@ -15,11 +15,11 @@ int main(int argc, char *argv[])
 	int num1, num2, result;
 	char symbol;
 	int (*j)(int, int);
-	
-	if (argc !=4)
+
+	if (argc != 4)
 	{
 		printf("Error\n");
-		return(98);
+		return (98);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
@@ -27,13 +27,13 @@ int main(int argc, char *argv[])
 	if (!j)
 	{
 		printf("Error\n");
-		return(99);
+		return (99);
 	}
 	symbol = *argv[2];
 	if ((symbol == '/' || symbol == '%') && num2 == 0)
 	{
 		printf("Error\n");
-		return(100);
+		return (100);
 	}
 
 	result = j(num1, num2);
