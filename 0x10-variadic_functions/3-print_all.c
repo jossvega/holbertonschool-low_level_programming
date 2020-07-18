@@ -11,7 +11,7 @@ void print_all(const char *const format, ...)
 	va_list list;
 
 	va_start(list, format);
-	if (format != NULL)
+	if (format)
 	{
 		while (format[x])
 		{
@@ -29,7 +29,7 @@ void print_all(const char *const format, ...)
 			case 's':
 				s = va_arg(list, char *);
 				if (s == NULL)
-					s = "nil";
+					s = "(nil)";
 				printf("%s%s", esp, s);
 				break;
 			default:
