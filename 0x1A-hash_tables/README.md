@@ -22,4 +22,3 @@ File Name|Task Name|Task Description
 5-hash_table_print.c|5. >>> print(ht)   |Write a function that prints a hash table.
 6-hash_table_delete.c|6. >>> del ht|Write a function that deletes a hash table.
 100-sorted_hash_table.c|7. $ht['Betty'] = 'Holberton'   |In PHP, hash tables are ordered. Wait WAT? How is this even possible? - 1.Create Hash Table, 2-set hash table, 3-get hash table, 4-print hash table in order, 5-print hash table in reverse and 6-delete hash table info and free
-
